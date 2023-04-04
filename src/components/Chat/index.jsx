@@ -8,7 +8,7 @@ socket.on("connect", () =>
 );
 
 const Chat = () => {
-    const [counter, setCounter] = useState();
+  const [counter, setCounter] = useState();
   const [message, setMessage] = useState("");
   const [messages, setMessages] = useState([]);
 
